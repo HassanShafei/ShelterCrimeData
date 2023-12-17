@@ -7,7 +7,7 @@ from streamlit_js_eval import streamlit_js_eval, get_geolocation
 
 import pandas as pd
 
-Datafile = "https://raw.githubusercontent.com/HassanShafei/ShelterCrimeData/main/incidents_part1_part2-2.csv?token=GHSAT0AAAAAACLKREJA5GNHDJ7OUI5TGH62ZL7KN7Q"
+Datafile = "https://raw.githubusercontent.com/HassanShafei/ShelterCrimeData/main/incidents_part1_part2-2.csv"
 
 df = pd.read_csv(Datafile)
 
