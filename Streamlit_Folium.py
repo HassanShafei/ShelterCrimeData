@@ -9,7 +9,7 @@ import pandas as pd
 
 Datafile = "https://raw.githubusercontent.com/HassanShafei/ShelterCrimeData/main/incidents_part1_2.feather"
 
-df = pd.read_csv(Datafile)
+df = pd.read_feather(Datafile)
 
 @st.cache_data
 def read_data(df, num_examples=2000):
