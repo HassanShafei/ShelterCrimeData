@@ -12,7 +12,7 @@ Datafile = "https://raw.githubusercontent.com/HassanShafei/ShelterCrimeData/main
 df = pd.read_csv(Datafile)
 
 @st.cache_data
-def read_data(df, num_examples=1000):
+def read_data(df, num_examples=2000):
     df = df.dropna(subset=['lat', 'lng'])
     df = df.sample(n=min(num_examples, len(df)))
 
