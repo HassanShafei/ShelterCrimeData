@@ -29,6 +29,7 @@ def read_data(df, num_examples=2000):
 data = read_data(df)
 
 # Button to initiate the process of getting the user's location
+st.write("Please provide your location to get the nearest service")
 if st.checkbox("Get My Location"):
     try:
         loc = get_geolocation()
