@@ -13,3 +13,4 @@ scipy==1.11.3
 Scrapy==2.11.0
 streamlit==1.29.0
 streamlit-folium==0.17.4
+geopy==2.2.0
