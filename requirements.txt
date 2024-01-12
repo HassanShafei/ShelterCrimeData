@@ -13,3 +13,4 @@ scipy==1.11.3
 streamlit==1.29.0
 streamlit-folium==0.17.4
 geopy==2.2.0
+pgeocode==0.3.0
